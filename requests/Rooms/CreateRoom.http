@@ -1,0 +1,9 @@
+@host=http://localhost:5000
+@gymId=ac55fbc8-6148-4568-bb60-b5d3b73db7e7
+
+POST {{host}}/gyms/{{gymId}}/rooms
+Content-Type: application/json
+
+{
+    "Name": "Lior's Room", 
+}

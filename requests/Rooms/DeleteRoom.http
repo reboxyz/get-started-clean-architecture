@@ -1,0 +1,7 @@
+@host=http://localhost:5000
+@gymId=ac55fbc8-6148-4568-bb60-b5d3b73db7e7
+@roomId=bd66fbc8-6148-4568-bb60-b5d3b73db6e8
+@token=BearerTokenHere13445454534534534
+
+DELETE {{host}}/gyms/{{gymId}}/rooms/{{roomId}}
+Authorization: Bearer {{token}}

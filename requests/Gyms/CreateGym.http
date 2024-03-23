@@ -1,0 +1,12 @@
+@host=http://localhost:5000
+@subscriptionId=6cba788d-cabb-4a21-95cc-89b0611f4e53
+
+POST {{host}}/subscriptions/{{subscriptionId}}/gyms
+Content-Type: application/json
+
+{
+    "name": "Winnux's gym"
+}
+
+###
+http://localhost:5000/subscriptions/51b5d6fd-75fe-44d9-a56f-2dcde66fad56/gyms/59bf64b3-fee6-4403-9631-d1a4f57cb032
